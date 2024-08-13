@@ -1,7 +1,7 @@
-var typed= new typed(".text",{
-    Strings:["Java developer","Backend developer"],
-    typeSpeed:100,
+var typed = new Typed('#text', {
+    strings: ['Java Developer','Back-end Developer','Web Developer'],
+    typeSpeed: 50,
     backSpeed:100,
-    BackDelay:1000,
+    backDelay:100,
     loop:true
-});
+  });
